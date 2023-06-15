@@ -34,14 +34,16 @@
         font-family: Libre Baskerville, system-ui, -apple-system,
           BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell,
           "Open Sans", "Helvetica Neue", sans-serif;
+        background-color: rgb(246, 242, 228);
+        color: rgb(74, 46, 22);
       }
 
       .card {
-        border: 1px solid #999;
+        border: 1px solid rgb(192, 153, 98);
         border-radius: 5px;
         position: absolute;
         padding: 5px;
-        background-color: white;
+        background-color: rgb(223, 210, 175);
       }
 
       .card:focus-visible {
@@ -49,7 +51,7 @@
       }
 
       .card.selected {
-        border: 2px solid orange;
+        border: 2px solid rgb(255 242 209);
       }
     </style>
   </head>
